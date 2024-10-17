@@ -5,11 +5,22 @@ export default createGlobalStyle`
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+
+        
     }
 
     body {
         background-color: ${({ theme }) => theme.COLORS.Dark_400};
         color: ${({ theme }) => theme.COLORS.Light_100};
+
+        -webkit-font-smoothing: antialiased;
+    }
+
+
+    border-style, input, button, textarea {
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        outline: none;
     }
 
     a{
