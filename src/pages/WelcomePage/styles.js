@@ -7,12 +7,8 @@ export const Container = styled.div`
 
   header {
     margin: auto;
-    margin-top: 100px;
+    margin-top: 70px;
   }
-
- 
-
-  
 
   header p {
     font-size: 15px;
@@ -25,12 +21,9 @@ export const Container = styled.div`
     height: 54px;
 
     text-align: center;
-
-    
   }
 
   #block {
-   
     width: 330px;
     height: 180px;
 
@@ -61,8 +54,6 @@ export const Container = styled.div`
   }
 
   section img {
- 
-
     position: absolute;
 
     top: 50%;
@@ -72,7 +63,7 @@ export const Container = styled.div`
     height: 500px;
 
     filter: brightness(1.1);
-    
+
     z-index: 0;
   }
 `
