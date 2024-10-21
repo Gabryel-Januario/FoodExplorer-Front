@@ -1,5 +1,5 @@
 import { Container } from "./style"
-import logoImg from "../../assets/Polygon 1.png"
+import logoImg from "../../assets/Polygon 1.svg"
 
 export function LogoHeader({ style, ...rest }) {
   return (

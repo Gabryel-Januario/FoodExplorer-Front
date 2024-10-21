@@ -24,8 +24,16 @@ export const Container = styled.div`
     height: 25px;
   }
 
-  .icon {
+  .iconMenu {
     width: 24px;
     height: 18px;
+
+    
+    
+  }
+  .iconReceipt {
+    
+    width: 32px;
+    height: 32px;
   }
 `

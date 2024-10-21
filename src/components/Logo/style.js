@@ -1,8 +1,8 @@
 import styled from "styled-components"
 
 export const Container = styled.div`
-  width: ${({ size }) => size || "285px"};
-  height: ${({ size }) => size || "44px"};
+  width: 285px;
+  height: 44px;
 
   margin: auto;
 
@@ -11,15 +11,15 @@ export const Container = styled.div`
   gap: 10px;
 
   img {
-    width: ${({ imgSize }) => imgSize || "auto"};
-    height: ${({ imgSize }) => imgSize || "auto"};
+    width: 43px;
+    height: 43px;
     margin: 0;
   }
 
   h1 {
     margin: 0;
 
-    font-size: ${({ fontSize }) => fontSize || "37px"};
+    font-size: 37px;
     font-family: "Roboto", sans-serif;
     font-weight: 800;
   }

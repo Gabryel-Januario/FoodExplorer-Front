@@ -1,60 +1,79 @@
-import styled from "styled-components";
+import styled from "styled-components"
 
 export const Container = styled.div`
-
-#block {
-    width:300px ;
+  #block {
+    width: auto;
     height: 120px;
 
     margin: 44px 16px auto 36px;
-    
 
     border-radius: 5px;
     background-image: linear-gradient(rgba(9, 30, 38, 1), rgba(0, 19, 28, 1));
 
     display: flex;
-    
-}
 
+    position: relative;
+  }
 
-
-#macarom {
-    position: absolute;
-    top: 29%;
-    left: 25%;
-    transform: translate(-50%, -52%);
-    z-index: 1;
-    width: 158px;
+  #macarom {
+    width: 191px;
     height: 149px;
-    
 
-   
-}
+    position: relative;
+    top: -19px;
+    left: -37.5px;
 
-#text {
-    margin: 25px 0px 20px auto;
-    padding:4px;
-    
-    text-align: center;
+    padding: 10px;
+  }
 
+  #text {
+    position: absolute;
     width: 180px;
+    margin: auto;
+    padding: 5px;
 
+    top: 55%;
+    left: 71%;
+    transform: translate(-50%, -50%);
+  }
 
-
-}
-
-#text h2{
+  #text h1 {
     font-family: "Poppins", sans-serif;
-    font-size: 15px;
-    margin-bottom: 4px;
+    font-size: 16px;
     font-weight: 500;
-    text-align: start;
-}
+  }
 
-#text p{
+  #text p {
     font-family: "Poppins", sans-serif;
-    font-size: 10.5px;
+    font-size: 10px;
     font-weight: 300;
-    text-align: start;
-}
+    padding: 0px;
+  }
+  //Dishes //
+
+  #meals {
+    margin-top: 30px;
+    /* border: 1px solid blue; */
+  }
+
+  #meals h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: ${({ theme }) => theme.COLORS.Light_300};
+
+    margin-left: 24px;
+
+
+    border: 1px solid blue;
+  }
+
+  #meals #cards {
+    margin: 24px auto 24px 24px;
+   width: 1000px;
+    border: 1px solid red;
+
+    display: flex;
+    gap: 16px;
+  }
 `

@@ -13,7 +13,7 @@ createRoot(document.getElementById("root")).render(
   <StrictMode>
     <ThemeProvider theme={theme}>
       <GlobalStyles />
-      < Home/>
+      <Home />
     </ThemeProvider>
   </StrictMode>
 )

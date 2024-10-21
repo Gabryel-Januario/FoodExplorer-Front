@@ -1,8 +1,7 @@
 import { Container } from "./styles"
 import { Button } from "../../components/Button"
 import { Logo } from "../../components/Logo"
-import PolygonImage from "../../assets/Polygon 1.png"
-import MacaronImage from "../../assets/pngegg 3.png"
+import MacaronImage from "../../assets/macaromWelcome.svg"
 
 export function WelcomePage() {
   return (

@@ -59,10 +59,10 @@ export const Container = styled.div`
     top: 50%;
     left: 50%;
     transform: translate(-50%, -30%);
-    width: 250px;
-    height: 500px;
+    width: 400px;
+    height: 550px;
 
-    filter: brightness(1.1);
+    
 
     z-index: 0;
   }

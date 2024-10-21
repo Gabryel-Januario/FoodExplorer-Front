@@ -1,5 +1,5 @@
 import { Container } from "./style"
-import PolygonImage from "../../assets/Polygon 1.png"
+import PolygonImage from "../../assets/Polygon 1.svg"
 
 export function Logo({ style, size, imgSize, fontSize, ...rest }) {
   return (
