@@ -13,15 +13,13 @@ export const Container = styled.div`
   gap: 10px;
   align-items: center;
   position: relative;
-  
-
 
   #heart {
-  position: absolute; 
-  top: 16px; 
-  right: 16px; 
-  cursor: pointer;
-}
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    cursor: pointer;
+  }
 
   #dishe {
     margin-top: 24px;
@@ -51,6 +49,4 @@ export const Container = styled.div`
       color: ${({ theme }) => theme.COLORS.Light_300};
     }
   }
-
- 
 `

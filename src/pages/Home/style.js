@@ -53,7 +53,7 @@ export const Container = styled.div`
 
   #meals {
     margin-top: 30px;
-    /* border: 1px solid blue; */
+    
   }
 
   #meals h2 {
@@ -64,16 +64,21 @@ export const Container = styled.div`
 
     margin-left: 24px;
 
-
-    border: 1px solid blue;
+   
   }
 
-  #meals #cards {
-    margin: 24px auto 24px 24px;
-   width: 1000px;
-    border: 1px solid red;
+  
 
+  .inner {
     display: flex;
     gap: 16px;
+  }
+
+  
+
+  .carousel {
+    overflow: hidden;
+    margin: 24px auto 24px 24px;
+   
   }
 `
