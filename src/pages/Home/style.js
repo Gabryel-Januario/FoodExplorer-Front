@@ -51,18 +51,23 @@ export const Container = styled.div`
   }
   //Dishes //
 
-  #meals {
+  
+
+  .sec {
     margin-top: 30px;
-    
   }
 
-  #meals h2 {
+  section h2 {
     font-family: "Poppins", sans-serif;
     font-size: 20px;
     font-weight: 500;
     color: ${({ theme }) => theme.COLORS.Light_300};
 
     margin-left: 24px;
+  }
+
+  #meals h2 {
+ 
 
    
   }
