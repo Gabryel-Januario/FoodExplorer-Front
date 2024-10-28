@@ -37,16 +37,5 @@ export const Container = styled.div`
     color: ${({ theme }) => theme.COLORS.Cake_200};
   }
 
-  #counter {
-    display: flex;
-    gap: 15px;
-
-    font-family: "Roboto";
-
-    color: ${({ theme }) => theme.COLORS.Light_100};
-
-    > p {
-      color: ${({ theme }) => theme.COLORS.Light_300};
-    }
-  }
+ 
 `
