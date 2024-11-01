@@ -10,7 +10,7 @@ export function SignIn() {
     <Container>
       <Logo style={{ margin: "100px auto 50px auto" }} />
       <Form>
-        <div id="inputWrapper">
+        <div className="inputWrapper">
           <label htmlFor="email">Email</label>
           <Input
             id="email"
@@ -20,7 +20,7 @@ export function SignIn() {
           />
         </div>
 
-        <div id="inputWrapper">
+        <div className="inputWrapper">
           <label htmlFor="password">Senha</label>
           <Input
             id="password"

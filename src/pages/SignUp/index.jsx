@@ -11,7 +11,7 @@ export function SignUp() {
     <Container>
       <Logo style={{ margin: "80px auto 50px auto" }} />
       <Form>
-        <div id="inputWrapper">
+        <div className="inputWrapper">
           <label htmlFor="password">Senha</label>
           <Input
             id="name"
@@ -24,7 +24,7 @@ export function SignUp() {
           />
         </div>
 
-        <div id="inputWrapper">
+        <div className="inputWrapper">
           <label htmlFor="email">Email</label>
           <Input
             id="email"
@@ -34,7 +34,7 @@ export function SignUp() {
           />
         </div>
 
-        <div id="inputWrapper">
+        <div className="inputWrapper">
           <label htmlFor="password">Senha</label>
           <Input
             id="password"

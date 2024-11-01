@@ -7,14 +7,17 @@ import theme from "./styles/theme"
 import { WelcomePage } from "./pages/WelcomePage"
 import { SignIn } from "./pages/SignIn"
 import { SignUp } from "./pages/SignUp"
+
 import { Home } from "./pages/Home"
+import { MenuAdmin } from "./pages/MenuAdmin"
+import { Menu } from "./pages/Menu"
 import { Dishe } from "./pages/Dishe"
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <ThemeProvider theme={theme}>
       <GlobalStyles />
-      <Dishe />
+      <Menu />
     </ThemeProvider>
   </StrictMode>
 )

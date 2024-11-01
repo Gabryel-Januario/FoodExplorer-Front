@@ -28,11 +28,14 @@ export const Form = styled.div`
   margin-top: 0;
   margin-bottom: 0;
 
-  #inputWrapper {
+  .inputWrapper {
     margin-bottom: 32px;
+    width: 321px;
+
+    
   }
 
-  #inputWrapper label {
+  .inputWrapper label {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
 
