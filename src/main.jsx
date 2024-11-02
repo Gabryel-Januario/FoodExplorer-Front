@@ -9,17 +9,18 @@ import { SignIn } from "./pages/SignIn"
 import { SignUp } from "./pages/SignUp"
 
 import { Home } from "./pages/Home"
-import { MenuAdmin } from "./pages/MenuAdmin"
 import { Menu } from "./pages/Menu"
 import { Dishe } from "./pages/Dishe"
 
 import { HomeAdmin } from "./pages/HomeAdmin"
+import { MenuAdmin } from "./pages/MenuAdmin"
+import { DisheAdmin } from "./pages/DisheAdmin"
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <ThemeProvider theme={theme}>
       <GlobalStyles />
-      <HomeAdmin />
+      <DisheAdmin />
     </ThemeProvider>
   </StrictMode>
 )
