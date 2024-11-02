@@ -2,6 +2,7 @@ import styled from "styled-components"
 
 export const Container = styled.div`
   margin-bottom: 100px;
+  
   #block {
     width: auto;
     height: 120px;

@@ -14,7 +14,7 @@ export const Container = styled.div`
   align-items: center;
   position: relative;
 
-  #heart {
+  #icon {
     position: absolute;
     top: 16px;
     right: 16px;

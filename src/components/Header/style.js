@@ -10,15 +10,6 @@ export const Container = styled.div`
 
   block-size: auto;
 
-  #line {
-    display: flex;
-    justify-content: space-between;
-    padding: 56px 28px 24px 28px;
-
-    align-items: center;
-    height: 114px;
-  }
-
   #logo img {
     width: 25px;
     height: 25px;
@@ -27,13 +18,44 @@ export const Container = styled.div`
   .iconMenu {
     width: 24px;
     height: 18px;
-
-    
-    
   }
-  .iconReceipt {
-    
-    width: 32px;
-    height: 32px;
+
+  &.admin {
+    p {
+      color: ${({ theme }) => theme.COLORS.Cake_200};
+
+      
+
+      font-family: "Roboto", sans-serif;
+
+     
+    }
+
+    #line {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      padding: 56px 28px 24px 28px;
+
+      height: 114px;
+    }
+  }
+
+  &.user {
+    #line {
+      display: flex;
+      justify-content: space-between;
+      padding: 56px 28px 24px 28px;
+
+      align-items: center;
+
+      height: 114px;
+    }
+
+    .iconReceipt {
+      width: 32px;
+      height: 32px;
+    }
   }
 `

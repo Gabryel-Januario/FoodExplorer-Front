@@ -13,11 +13,13 @@ import { MenuAdmin } from "./pages/MenuAdmin"
 import { Menu } from "./pages/Menu"
 import { Dishe } from "./pages/Dishe"
 
+import { HomeAdmin } from "./pages/HomeAdmin"
+
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <ThemeProvider theme={theme}>
       <GlobalStyles />
-      <Menu />
+      <HomeAdmin />
     </ThemeProvider>
   </StrictMode>
 )
