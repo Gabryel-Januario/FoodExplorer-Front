@@ -22,8 +22,11 @@ export const Container = styled.div`
     background: transparent;
     border: none;
 
+    
+
     &:placeholder {
       color: ${({ theme }) => theme.COLORS.Light_500};
+      
     }
   }
   > svg {

@@ -15,12 +15,13 @@ import { Dishe } from "./pages/Dishe"
 import { HomeAdmin } from "./pages/HomeAdmin"
 import { MenuAdmin } from "./pages/MenuAdmin"
 import { DisheAdmin } from "./pages/DisheAdmin"
+import { NewDishe } from "./pages/NewDishe"
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <ThemeProvider theme={theme}>
       <GlobalStyles />
-      <DisheAdmin />
+      <NewDishe/>
     </ThemeProvider>
   </StrictMode>
 )
