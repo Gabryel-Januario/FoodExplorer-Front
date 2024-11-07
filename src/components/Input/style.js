@@ -6,7 +6,7 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
 
-  background-color: ${({ theme }) => theme.COLORS.Dark_900};
+  background-color: ${({ theme }) => theme.COLORS.Light_100};
   color: ${({ theme }) => theme.COLORS.Light_500};
 
   margin-bottom: 8px;

@@ -7,6 +7,8 @@ import { Header } from "../../components/Header"
 import { Input } from "../../components/Input"
 import { Button } from "../../components/Button"
 import { Footer } from "../../components/Footer"
+import { NewIngredients } from "../../components/NewIngredient"
+import { TextArea } from "../../components/TextArea"
 
 import arrow from "../../assets/arrow.svg"
 
@@ -73,12 +75,16 @@ export function NewDishe() {
 
         <div className="inputWrapper">
           <label htmlFor="ingredients">Ingredientes</label>
-          <div id="ingredients">
-            <div className="added">Pão Nann</div>
-            <div></div>
+          <div className="ingredients">
+            <NewIngredients value="Pão naan" />
+            <NewIngredients value="Queijo suiço" />
+            <NewIngredients value="Pimenta" />
+            <NewIngredients value="Oceano acustico da malacia" />
+            <NewIngredients isNew={true} placeholder="Adicionar" />
           </div>
         </div>
 
+        
         <div className="inputWrapper">
           <label htmlFor="DishePrice">Preço</label>
           <Input
@@ -91,12 +97,7 @@ export function NewDishe() {
 
         <div className="inputWrapper">
           <label htmlFor="DisheDescription">Descrição</label>
-          <Input
-            id="DisheDescription"
-            type="text"
-            placeholder="R$ 40,00"
-            style={{ backgroundColor: "#0D161B", height: "200px" }}
-          />
+          <TextArea placeholder="Observações"/>
         </div>
 
         <div className="inputWrapper" id="button">

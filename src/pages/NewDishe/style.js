@@ -7,7 +7,6 @@ export const Container = styled.div`
     margin-bottom: 230px;
     width: 85%;
     height: 923px;
-
   }
 
   #toBack {
@@ -39,8 +38,6 @@ export const Container = styled.div`
       font-family: "Roboto", sans-serif;
       color: ${({ theme }) => theme.COLORS.Light_400};
     }
-
-    
   }
 
   .inputWrapper label {
@@ -67,31 +64,14 @@ export const Container = styled.div`
     border: none;
   }
 
-  #ingredients {
-    width: 100%;
-  height: 48px;
-  display: flex;
-  align-items: center;
-
-  background-color: ${({ theme }) => theme.COLORS.Dark_800};
-  color: ${({ theme }) => theme.COLORS.Light_500};
-
-  margin-bottom: 8px;
-  border-radius: 10px;
+  .ingredients {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
   }
-
-  .added {
-    width: auto;
-    height: 32px;
-    border-radius: 8px;
-    padding: 10px 16px 10px 16px;
-    text-align: center;
-
-    background-color: ${({theme}) => theme.COLORS.Light_600};
-  }
-
 
   #button {
     width: 100%;
+    
   }
 `
