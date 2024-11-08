@@ -12,8 +12,6 @@ import { TextArea } from "../../components/TextArea"
 
 import arrow from "../../assets/arrow.svg"
 
-
-
 export function EditDishe() {
   const [selectedOption, setSelectedOption] = useState("")
 
@@ -82,7 +80,6 @@ export function EditDishe() {
           </div>
         </div>
 
-        
         <div className="inputWrapper">
           <label htmlFor="DishePrice">Preço</label>
           <Input
@@ -95,17 +92,25 @@ export function EditDishe() {
 
         <div className="inputWrapper">
           <label htmlFor="DisheDescription">Descrição</label>
-          <TextArea placeholder="A Salada César é uma opção refrescante para o verão."/>
+          <TextArea placeholder="A Salada César é uma opção refrescante para o verão." />
         </div>
 
         <div className="inputWrapper" id="button">
           <Button
             title="Excluir prato"
-            style={{ width: "45%", backgroundColor: "#0D161B", fontSize: "14px"}}
+            style={{
+              width: "45%",
+              backgroundColor: "#0D161B",
+              fontSize: "12px",
+            }}
           />
           <Button
             title="Salvar alterações"
-            style={{ width: "60%", backgroundColor: "#AB4D55", fontSize: "14px" }}
+            style={{
+              width: "60%",
+              backgroundColor: "#AB4D55",
+              fontSize: "12px",
+            }}
           />
         </div>
       </main>

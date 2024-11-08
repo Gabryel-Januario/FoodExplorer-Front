@@ -4,6 +4,9 @@ import { ThemeProvider } from "styled-components"
 import GlobalStyles from "./styles/global"
 import theme from "./styles/theme"
 
+
+import { Routes } from "./routes"
+
 import { WelcomePage } from "./pages/WelcomePage"
 import { SignIn } from "./pages/SignIn"
 import { SignUp } from "./pages/SignUp"
@@ -22,7 +25,7 @@ createRoot(document.getElementById("root")).render(
   <StrictMode>
     <ThemeProvider theme={theme}>
       <GlobalStyles />
-      <EditDishe/>
+      <Routes/>
     </ThemeProvider>
   </StrictMode>
 )
