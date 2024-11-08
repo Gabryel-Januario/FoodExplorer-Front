@@ -12,9 +12,7 @@ import { TextArea } from "../../components/TextArea"
 
 import arrow from "../../assets/arrow.svg"
 
-// ainda falta alterar a section de ingredients e
-// descrição, isso verei video da rocketseat para consegui
-// entender como fazer
+// Falta arrumar a descrição
 
 export function NewDishe() {
   const [selectedOption, setSelectedOption] = useState("")
@@ -97,7 +95,7 @@ export function NewDishe() {
 
         <div className="inputWrapper">
           <label htmlFor="DisheDescription">Descrição</label>
-          <TextArea placeholder="Observações"/>
+          <TextArea placeholder="Fale brevemente sobre o prato, seus ingredientes e composição"/>
         </div>
 
         <div className="inputWrapper" id="button">

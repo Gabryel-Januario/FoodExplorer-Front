@@ -4,9 +4,9 @@ export const Container = styled.div`
   main {
     margin: auto;
     margin-top: 10px;
-    margin-bottom: 230px;
+    margin-bottom: 25%;
     width: 85%;
-    height: 923px;
+    height: auto;
   }
 
   #toBack {
@@ -72,6 +72,5 @@ export const Container = styled.div`
 
   #button {
     width: 100%;
-    
   }
 `
