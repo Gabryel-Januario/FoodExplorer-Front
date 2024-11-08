@@ -16,12 +16,13 @@ import { HomeAdmin } from "./pages/HomeAdmin"
 import { MenuAdmin } from "./pages/MenuAdmin"
 import { DisheAdmin } from "./pages/DisheAdmin"
 import { NewDishe } from "./pages/NewDishe"
+import { EditDishe } from "./pages/EditDishe"
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <ThemeProvider theme={theme}>
       <GlobalStyles />
-      <NewDishe/>
+      <EditDishe/>
     </ThemeProvider>
   </StrictMode>
 )

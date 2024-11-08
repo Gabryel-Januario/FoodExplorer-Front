@@ -14,7 +14,7 @@ import arrow from "../../assets/arrow.svg"
 
 
 
-export function NewDishe() {
+export function EditDishe() {
   const [selectedOption, setSelectedOption] = useState("")
 
   const handleChange = (event) => {
@@ -31,7 +31,7 @@ export function NewDishe() {
           <p>voltar</p>
         </div>
 
-        <h1>Novo prato</h1>
+        <h1>Editar prato</h1>
 
         <div className="inputWrapper">
           <label htmlFor="disheImg">Imagem do prato</label>
@@ -39,7 +39,7 @@ export function NewDishe() {
             id="disheImgInput"
             type="text"
             icon={FiUpload}
-            placeholder="Selecione Imagem"
+            placeholder="Selecione Imagem para alterá-la"
             style={{ backgroundColor: "#0D161B" }}
           />
         </div>
@@ -48,7 +48,7 @@ export function NewDishe() {
           <Input
             id="DisheName"
             type="text"
-            placeholder="Ex: Salada Ceasar"
+            placeholder="Salada Ceasar"
             style={{ backgroundColor: "#0D161B" }}
           />
         </div>
@@ -95,13 +95,17 @@ export function NewDishe() {
 
         <div className="inputWrapper">
           <label htmlFor="DisheDescription">Descrição</label>
-          <TextArea placeholder="Fale brevemente sobre o prato, seus ingredientes e composição"/>
+          <TextArea placeholder="A Salada César é uma opção refrescante para o verão."/>
         </div>
 
         <div className="inputWrapper" id="button">
           <Button
+            title="Excluir prato"
+            style={{ width: "45%", backgroundColor: "#0D161B", fontSize: "14px"}}
+          />
+          <Button
             title="Salvar alterações"
-            style={{ width: "100%", backgroundColor: "#AB4D55" }}
+            style={{ width: "60%", backgroundColor: "#AB4D55", fontSize: "14px" }}
           />
         </div>
       </main>
