@@ -73,4 +73,9 @@ export const Container = styled.div`
   #button {
     width: 100%;
   }
+
+  a{
+    text-decoration: none;
+    color: ${({theme}) => theme.COLORS.Light_100};
+  }
 `

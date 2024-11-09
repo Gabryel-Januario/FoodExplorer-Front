@@ -1,6 +1,8 @@
 import { Container } from "./style"
 import { FiUpload } from "react-icons/fi"
 
+import { Link } from "react-router-dom"
+
 import React, { useState } from "react"
 
 import { Header } from "../../components/Header"
@@ -26,10 +28,12 @@ export function NewDishe() {
       <Header isAdmin={true} />
 
       <main>
-        <div id="toBack">
-          <img src={arrow} alt="icone para voltar" />
-          <p>voltar</p>
-        </div>
+        <Link to="/menu">
+          <div id="toBack">
+            <img src={arrow} alt="icone para voltar" />
+            <p>voltar</p>
+          </div>
+        </Link>
 
         <h1>Novo prato</h1>
 

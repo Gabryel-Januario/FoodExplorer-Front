@@ -1,5 +1,7 @@
 import { FiMail, FiLock } from "react-icons/fi"
 
+import { Link } from "react-router-dom"
+
 import { Container, Form } from "./style"
 import { Logo } from "../../components/Logo"
 import { Input } from "../../components/Input"
@@ -33,7 +35,9 @@ export function SignIn() {
         <Button title="Entrar" style={{ width: "321px", margin: "10px" }} />
       </Form>
 
-      <p>Criar uma conta</p>
+
+      <Link to="/signup">Criar Conta</Link>
+      
     </Container>
   )
 }

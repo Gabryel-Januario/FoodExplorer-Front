@@ -76,4 +76,9 @@ export const Container = styled.div`
     justify-content: space-between;
     gap: 10px;
   }
+
+  a{
+    text-decoration: none;
+    color: ${({theme}) => theme.COLORS.Light_100};
+  }
 `

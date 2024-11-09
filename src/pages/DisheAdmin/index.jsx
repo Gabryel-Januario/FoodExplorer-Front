@@ -4,6 +4,8 @@ import { Header } from "../../components/Header"
 import { Button } from "../../components/Button"
 import { Counter } from "../../components/Counter"
 
+import { Link } from "react-router-dom"
+
 import arrow from "../../assets/arrow.svg"
 import receipt from "../../assets/Receipt.svg"
 import saladaRavanello from "../../assets/saladaRavanello.svg"
@@ -19,17 +21,17 @@ const ingredients = [
   "Cleton",
 ]
 
-
-
 export function DisheAdmin() {
   return (
     <Container>
       <Header isAdmin={true} />
       <section>
-        <div id="back">
-          <img src={arrow} alt="Seta para Voltar " />
-          <p>Voltar</p>
-        </div>
+        <Link to="/">
+          <div id="back">
+            <img src={arrow} alt="Seta para Voltar " />
+            <p>Voltar</p>
+          </div>
+        </Link>
         <img
           id="picture"
           src={saladaRavanello}
@@ -51,11 +53,10 @@ export function DisheAdmin() {
         </div>
 
         <div id="ask">
-         
           <div id="button">
             <Button
               title="Editar prato"
-              style={{ width: "272px", height: "48px", margin: "auto"}}
+              style={{ width: "272px", height: "48px", margin: "auto" }}
             />
           </div>
         </div>

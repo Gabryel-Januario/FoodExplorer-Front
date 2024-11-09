@@ -6,14 +6,20 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
 
-  p {
+  a {
     font-family: "Poppins", sans-serif;
     font-size: 16px;
     font-weight: 400;
 
     margin: auto;
-    margin-top: 22px;
+    margin-top: 42px;
+
+    text-decoration: none;
+
+    color: ${({theme}) => theme.COLORS.Light_100} ;
   }
+
+  
 `
 
 export const Form = styled.div`

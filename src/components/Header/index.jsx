@@ -1,4 +1,5 @@
 import { Container } from "./style"
+import { Link } from "react-router-dom"
 
 import MenuImage from "../../assets/Menu.svg"
 import Receipt from "../../assets/Receipt.svg"
@@ -11,9 +12,11 @@ export function Header({ style, isAdmin, ...rest }) {
   return (
     <Container className={isAdmin ? "admin" : "user"}>
       <div id="line">
-        <div className="iconMenu">
-          <img src={MenuImage} alt="Icone de Menu" />
-        </div>
+        <Link to="/menu">
+          <div className="iconMenu">
+            <img src={MenuImage} alt="Icone de Menu" />
+          </div>
+        </Link>
         <div id="logo">
           <LogoHeader />
         </div>

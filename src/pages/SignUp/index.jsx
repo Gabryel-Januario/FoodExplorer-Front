@@ -1,6 +1,8 @@
 import { FiMail, FiLock } from "react-icons/fi"
 import { AiOutlineUser } from "react-icons/ai"
 
+import { Link } from "react-router-dom"
+
 import { Container, Form } from "./style"
 import { Logo } from "../../components/Logo"
 import { Input } from "../../components/Input"
@@ -12,7 +14,7 @@ export function SignUp() {
       <Logo style={{ margin: "80px auto 50px auto" }} />
       <Form>
         <div className="inputWrapper">
-          <label htmlFor="password">Senha</label>
+          <label htmlFor="password">Nome</label>
           <Input
             id="name"
             placeholder="Exemplo: Maria Silva"
@@ -44,10 +46,10 @@ export function SignUp() {
           />
         </div>
 
-        <Button title="Entrar" style={{ width: "321px", margin: "10px" }} />
+        <Button title="Registrar" style={{ width: "321px", margin: "10px" }} />
       </Form>
 
-      <p>Já tenho uma conta</p>
+      <Link to="/signin">Já tenho uma conta</Link>
     </Container>
   )
 }

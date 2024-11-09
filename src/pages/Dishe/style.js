@@ -84,4 +84,9 @@ export const Container = styled.div`
   #button {
     margin: auto;
   }
+
+  a{
+    text-decoration: none;
+    color: ${({theme}) => theme.COLORS.Light_100};
+  }
 `

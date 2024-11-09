@@ -1,5 +1,7 @@
 import { useState, useEffect, useRef } from "react"
 
+import { Link } from "react-router-dom"
+
 import { motion } from "framer-motion"
 
 import { Container } from "./style"
@@ -33,7 +35,7 @@ export function HomeAdmin() {
     <Container>
       <Header isAdmin={true} />
       <div id="block">
-        <img id="macarom" src={Macarom} alt="" />
+        <img id="macarom" src={Macarom} alt="Imagem de macarom caindo" />
 
         <div id="text">
           <h1>Sabores inigualáveis</h1>

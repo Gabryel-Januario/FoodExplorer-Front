@@ -4,6 +4,8 @@ import { Header } from "../../components/Header"
 import { Button } from "../../components/Button"
 import { Counter } from "../../components/Counter"
 
+import { Link } from "react-router-dom"
+
 import arrow from "../../assets/arrow.svg"
 import receipt from "../../assets/Receipt.svg"
 import saladaRavanello from "../../assets/saladaRavanello.svg"
@@ -42,10 +44,12 @@ export function Dishe() {
     <Container>
       <Header />
       <section>
-        <div id="back">
-          <img src={arrow} alt="Seta para Voltar " />
-          <p>Voltar</p>
-        </div>
+        <Link to="/">
+          <div id="back">
+            <img src={arrow} alt="Seta para Voltar " />
+            <p>Voltar</p>
+          </div>
+        </Link>
         <img
           id="picture"
           src={saladaRavanello}

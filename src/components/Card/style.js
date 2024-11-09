@@ -37,5 +37,14 @@ export const Container = styled.div`
     color: ${({ theme }) => theme.COLORS.Cake_200};
   }
 
+  a {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    gap: 10px;
+  
+  }
+
  
 `
